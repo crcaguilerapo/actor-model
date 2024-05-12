@@ -1,0 +1,1 @@
+awslocal sqs send-message --queue-url http://sqs.us-east-2.localhost.localstack.cloud:55372/000000000000/microservice-a --message-body "{\"from\":\"microservice-b\",\"to\":\"microservice-a\",\"eventType\":\"PAYMENT\",\"payload\":{\"originAccountNumber\":1,\"destinationAccountNumber\":2,\"amount\":50}}"

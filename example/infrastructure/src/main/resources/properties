@@ -1,0 +1,13 @@
+aws.accessKeyId=test
+aws.secretAccessKey=test
+aws.sqs.region=us-east-2
+aws.sqs.sqsUrl=http://localhost:4566
+aws.sqs.name=microservice-a
+aws.sqs.queueUrl=http://localhost:4566/000000000000/microservice-a
+aws.sqs.maxNumberOfMessages=10
+aws.sqs.waitTimeSeconds=20
+aws.sqs.visibilityTimeout=600
+postgres.user=app
+postgres.database=bank
+postgres.password=nopass
+postgres.url= jdbc:postgresql://localhost:5432/
